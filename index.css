@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", "Helvetica", "Arial", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Helvetica Neue", "Helvetica", "Arial", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-black antialiased;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .text-huge {
+    font-size: clamp(5rem, 25vw, 40rem);
+    line-height: 0.8;
+    letter-spacing: -0.05em;
+  }
+}
