@@ -1,5 +1,5 @@
-import WorkSection from "../components/WorkSection";
-import Contact from "../components/Contact";
+import WorkSection from "./WorkSection";
+import Contact from "./Contact";
 
 export default function Work() {
   return (

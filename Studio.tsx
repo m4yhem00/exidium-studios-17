@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
-import WorkSection from "../components/WorkSection";
-import Contact from "../components/Contact";
-import Ecosystem from "../components/Ecosystem";
+import WorkSection from "./WorkSection";
+import Contact from "./Contact";
+import Ecosystem from "./Ecosystem";
 
 const approachItems = [
   {
