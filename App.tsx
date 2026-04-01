@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import WorkSection from "./components/WorkSection";
-import Capabilities from "./components/Capabilities";
-import Ecosystem from "./components/Ecosystem";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Studio from "./pages/Studio";
-import Work from "./pages/Work";
-import DraggableVideo from "./components/BouncingVideo";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import WorkSection from "./WorkSection";
+import Capabilities from "./Capabilities";
+import Ecosystem from "./Ecosystem";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import Studio from "./Studio";
+import Work from "./Work";
+import DraggableVideo from "./BouncingVideo";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<"home" | "work" | "studio">("home");
